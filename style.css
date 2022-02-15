@@ -22,7 +22,7 @@ p {
 h2 {
   color: var(--third-color);
   font-size: 44px;
-  text-indent: 1em;
+  
 }
 
 .portfolio-content {
@@ -42,7 +42,7 @@ h2 {
 .name {
   font-size: 96px;
   color: var(--principal-color);
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .name-description {
@@ -64,6 +64,9 @@ h2 {
 }
 .my-photo:hover {
   opacity: 1;
+}
+.title{
+    text-indent: 1em;
 }
 
 .learn-more {
