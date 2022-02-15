@@ -62,8 +62,8 @@ h2 {
   border-radius: 50%;
   opacity: 0.95;
 }
-.my-photo:hover{
-    opacity: 1;
+.my-photo:hover {
+  opacity: 1;
 }
 
 .learn-more {
@@ -85,6 +85,7 @@ h2 {
   width: 200px;
   padding: 15px 25px;
   color: var(--principal-color);
+  font-size: 24px;
 }
 
 .content-button:hover {
@@ -102,13 +103,21 @@ h2 {
   color: var(--principal-color);
 }
 
-.h2-contacts{
-    color: var(--principal-color);
-    font-size: 30px;
-    text-indent: 0;
+.h2-contacts {
+  color: var(--principal-color);
+  font-size: 30px;
+  text-indent: 0;
 }
 
 @media (max-width: 900px) {
+  h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 23px;
+  }
+  p {
+    font-size: 18px;
+  }
   .name {
     font-size: 44px;
     line-height: 1;
@@ -125,11 +134,16 @@ h2 {
     padding: 20px 0 5px;
     width: 90%;
   }
+
+  .content-button {
+    font-size: 18px;
+  }
   .line {
     margin: 10px;
   }
-  h2 {
-    text-align: center;
-    padding: 10px;
+  .h2-contacts {
+    color: var(--principal-color);
+    font-size: 18px;
+    text-indent: 0;
   }
 }
