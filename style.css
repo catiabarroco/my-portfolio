@@ -32,7 +32,8 @@ h2 {
 .header-content {
   margin: auto;
   padding: 80px 0;
-  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hello-name {
