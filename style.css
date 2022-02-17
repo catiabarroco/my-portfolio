@@ -44,7 +44,7 @@ h4{
   font-size: 46px;
   color: var(--principal-color);
 }
-.name {
+.name, .principal-title {
   font-size: 96px;
   color: var(--principal-color);
   line-height: 1;
