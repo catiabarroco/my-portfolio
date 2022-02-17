@@ -22,10 +22,9 @@ p {
 h2 {
   color: var(--third-color);
   font-size: 44px;
-  
 }
 
-h4{
+h4 {
   font-size: 20px;
 }
 
@@ -44,7 +43,8 @@ h4{
   font-size: 46px;
   color: var(--principal-color);
 }
-.name, .principal-title {
+.name,
+.principal-title {
   font-size: 96px;
   color: var(--principal-color);
   line-height: 1;
@@ -70,8 +70,8 @@ h4{
 .my-photo:hover {
   opacity: 1;
 }
-.title{
-    text-indent: 1em;
+.title {
+  text-indent: 1em;
 }
 
 .learn-more {
@@ -117,40 +117,72 @@ h4{
   text-indent: 0;
 }
 
-
-
-.contact-me-content{
+.contact-me-content {
   line-height: 1.5;
   margin-bottom: 30px;
-
-
 }
 
-.content{
-  padding: 90px 50px
+.content {
+  padding: 90px 50px;
 }
 
-.content h1, .color-princ, .content a:hover{
-
+.content h1,
+.color-princ,
+.content a:hover {
   color: var(--principal-color);
 }
 
-.content a{
+.content a {
   color: black;
   text-decoration: none;
 }
 
+.img-cursovideo {
+  border-radius: 50%;
+  padding: 10px;
+  max-width: 300px;
+}
 
+.logo-shecodes {
+  max-width: 300px;
+}
+
+.logo-skills {
+  width: 40px;
+}
+
+.work-button {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+  border: 1px solid var(--principal-color);
+
+  padding: 15px 25px;
+  color: var(--principal-color);
+  font-size: 18px;
+}
+
+.work-button:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--principal-color);
+}
+
+.border-project {
+  border: 1px solid var(--principal-color);
+  border-radius: 20px;
+  padding: 30px;
+}
 
 @media (max-width: 900px) {
   h2 {
     text-align: center;
     padding: 10px;
-    font-size: 23px;
+    font-size: 30px;
   }
 
-
-  .name {
+  .name,
+  .principal-title {
     font-size: 44px;
     line-height: 1;
   }
